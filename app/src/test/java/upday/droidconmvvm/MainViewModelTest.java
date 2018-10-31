@@ -9,8 +9,8 @@ import org.mockito.MockitoAnnotations;
 import java.util.Arrays;
 import java.util.List;
 
-import rx.Observable;
-import rx.observers.TestSubscriber;
+import io.reactivex.Observable;
+import io.reactivex.subscribers.TestSubscriber;
 import upday.droidconmvvm.datamodel.IDataModel;
 import upday.droidconmvvm.model.Language;
 import upday.droidconmvvm.schedulers.ImmediateSchedulerProvider;
